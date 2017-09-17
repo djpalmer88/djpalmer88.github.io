@@ -25,7 +25,6 @@ github_username:  djpalmer88
 markdown: kramdown
 plugins:
   - jekyll-feed
-  - bootstrap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -38,3 +37,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+sass:
+  load_paths:
+    - _sass
+    - node_modules
